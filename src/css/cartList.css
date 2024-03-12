@@ -1,0 +1,486 @@
+@media screen and (max-width: 540px) {
+  div#cartArea {
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    /* border: 1px solid red; */
+  }
+  /*주문결제탭*/
+  div#cartArea div#orderAmountArea {
+    position: relative;
+    top: 250px;
+    width: 100%;
+    height: 400px;
+    border: 0px solid red;
+  }
+  div#cartArea div#orderAmountArea #order-info {
+    font-size: 30px;
+    margin-bottom: 10px;
+    border: 0px solid blue;
+    border-bottom: 1px solid black;
+  }
+  div#orderAmountArea p {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    text-align: left;
+    border: 0px solid black;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  div#orderAmountArea span {
+    position: absolute;
+    /* border: 1px solid red; */
+    right: 0;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  div#orderAmountArea p span.free-shipping-txt {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  div#orderAmountArea p.totalAmount {
+    margin-top: 60px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  div#orderAmountArea button.purchase-btn {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    background-color: black;
+    color: white;
+    height: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+  }
+  div#orderAmountArea button.purchase-btn:hover {
+    background-color: darkgray;
+  }
+  /*장바구니리스트탭*/
+  div#cartArea div#cartListArea {
+    position: relative;
+    top: 300px;
+    left: 0%;
+    width: 100%;
+    margin-top: 10%;
+    border: 0px solid green;
+  }
+  button.delCart {
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 60px;
+    left: 20%;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    font-size: 28px;
+  }
+  button.delCart:hover {
+    background-color: lightgray;
+  }
+  tbody.shoppingCart_tbody tr {
+    position: relative;
+  }
+  td.nameSize {
+    width: 300px;
+  }
+  .shoppingCart_tbody p.title {
+    position: absolute;
+    border: 0px solid red;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .shoppingCart_tbody p.size {
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    border: 0px solid black;
+    margin-left: 1%;
+    top: 15%;
+    text-align: center;
+  }
+
+  td.totalPriceTd {
+    position: relative;
+    width: 100%;
+    border: 0px solid green;
+  }
+  span.cartPage_totalPrice {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px solid red;
+  }
+
+  button.add,
+  button.deduct {
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 15px;
+  }
+  button.deleteItem {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 0px solid blue;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+
+  button.deleteItem i {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    font-size: 25px;
+
+  }
+
+  /*1018추가*/
+  span.cartPage_itemPrice {
+    border: 0cqw solid green;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-size: 16px;
+  }
+  tbody.shoppingCart_tbody img {
+    width: 150px;
+    height: 210px;
+  }
+  span.cartPage_quantity {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 0px solid red;
+  }
+
+  /* 1020 추가*/
+  div.go-purchase-txt-area {
+    border: 0px solid black;
+    position: absolute;
+    height: 80px;
+    width: 600px;
+    top: 300px;
+    left: 30%;
+  }
+  div.go-purchase-txt-area span {
+    font-size: 40px;
+    color: darkgray;
+  }
+  div#orderAmountArea span.free-shipping-txt {
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+  }
+
+  /*1023 추가*/
+
+  span.columns {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  /*결제완료 페이지*/
+  div#orderDone {
+    display: none;
+    position: relative;
+  }
+
+  div#orderDone span.img {
+    position: absolute;
+    top: 100px;
+  }
+  div#orderDone span.img img {
+    width: 100%;
+  }
+  div#orderDone .txt {
+    position: absolute;
+    width: 100%;
+    top: 550px;
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+  }
+
+  div#orderDone .txt2 {
+    position: absolute;
+    top: 600px;
+    font-size: 20px;
+    /* border: 1px solid blue; */
+  }
+
+  div#orderDone .txt2 .orderDoneInfo {
+    text-decoration: underline black;
+    color: black;
+    font-weight: bold;
+  }
+
+  div#orderDone .txt2 .orderDoneInfo:hover {
+    color: red;
+    text-decoration: underline red;
+  }
+
+  div#orderDone .orderNum {
+    position: absolute;
+    top: 690px;
+    border-top: 1px dotted gray;
+  }
+
+  div#orderDone .orderDate {
+    position: absolute;
+    top: 710px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h2#toggleBtn {
+    display: none;
+  }
+  div#cartArea {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+  }
+  /*주문결제탭*/
+  div#cartArea div#orderAmountArea {
+    position: relative;
+    top: 250px;
+    right: 20px;
+    width: 500px;
+    height: 400px;
+    float: right;
+    border: 0px solid red;
+  }
+  div#cartArea div#orderAmountArea #order-info {
+    font-size: 30px;
+    margin-bottom: 10px;
+    border: 0px solid blue;
+    border-bottom: 1px solid black;
+  }
+  div#orderAmountArea p {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    text-align: left;
+    border: 0px solid black;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  div#orderAmountArea span {
+    position: absolute;
+    /* border: 1px solid red; */
+    right: 0;
+    font-size: 20px;
+  }
+  div#orderAmountArea p.totalAmount {
+    margin-top: 60px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  div#orderAmountArea button.purchase-btn {
+    position: absolute;
+    width: 400px;
+    margin: 10px 25px 10px 25px;
+    background-color: darkgray;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+  }
+  div#orderAmountArea button.purchase-btn:hover {
+    background-color: black;
+  }
+  /*장바구니리스트탭*/
+  div#cartArea div#cartListArea {
+    position: relative;
+    top: 300px;
+    left: 20px;
+    width: 1400px;
+    height: 210px;
+    /* border: 1px solid green; */
+  }
+  button.delCart {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 20px;
+    position: absolute;
+    left: 550px;
+    font-size: 17px;
+  }
+  button.delCart:hover {
+    background-color: lightgray;
+  }
+
+  tbody.shoppingCart_tbody tr {
+    position: relative;
+  }
+  td.nameSize {
+    width: 300px;
+  }
+  .shoppingCart_tbody p.title {
+    position: absolute;
+    border: px solid red;
+    top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .shoppingCart_tbody p.size {
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    border: 0px solid black;
+    margin-left: 20px;
+    top: 30%;
+    text-align: center;
+  }
+
+  td.totalPriceTd {
+    position: absolute;
+    margin-left: 60px;
+    top: 95px;
+    font-size: 20px;
+    width: 200px;
+    /* border: 1px solid green; */
+  }
+
+  button.add,
+  button.deduct {
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 15px;
+  }
+  button.deleteItem {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 78px;
+    font-size: 20px;
+    margin-left: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+
+  /*1018추가*/
+  span.cartPage_itemPrice {
+    border: 0px solid red;
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    font-size: 16px;
+  }
+  tbody.shoppingCart_tbody img {
+    width: 150px;
+    height: 210px;
+  }
+  span.cartPage_quantity {
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+    top: 10px;
+    padding: 0 5px 0 5px;
+  }
+
+  /* 1020 추가*/
+  div.go-purchase-txt-area {
+    border: 0px solid black;
+    position: absolute;
+    height: 80px;
+    width: 600px;
+    top: 300px;
+    left: 30%;
+  }
+  div.go-purchase-txt-area span {
+    font-size: 40px;
+    color: darkgray;
+  }
+  div#orderAmountArea span.free-shipping-txt {
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+  }
+
+  /*1023 추가*/
+
+  span.columns {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  /*결제완료 페이지*/
+  div#orderDone {
+    display: none;
+    position: relative;
+  }
+
+  div#orderDone span.img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 170px;
+    left: -110px;
+  }
+  div#orderDone .txt {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    font-size: 50px;
+    border-bottom: 1px solid gray;
+  }
+
+  div#orderDone .txt2 {
+    position: absolute;
+    top: 380px;
+    left: 400px;
+    font-size: 20px;
+    /* border: 1px solid blue; */
+  }
+
+  div#orderDone .txt2 .orderDoneInfo {
+    text-decoration: underline black;
+    color: black;
+    font-weight: bold;
+  }
+
+  div#orderDone .txt2 .orderDoneInfo:hover {
+    color: red;
+    text-decoration: underline red;
+  }
+
+  div#orderDone .orderNum {
+    position: absolute;
+    top: 450px;
+    left: 400px;
+    border-top: 1px dotted gray;
+  }
+
+  div#orderDone .orderDate {
+    position: absolute;
+    top: 470px;
+    left: 400px;
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "title": "코듀로이 카고 팬츠",
+      "price": 27900,
+      "productImg": "src/images/kids/bottoms/kids_b1.jpg",
+      "thumbnails": [
+        "src/images/kids/bottoms/kids_b1-1.jpg",
+        "src/images/kids/bottoms/kids_b1-2.jpg",
+        "src/images/kids/bottoms/kids_b1-3.jpg"
+      ],
+      "id": 64,
+      "iteminfo": "겉감 주요소재 100%\n폴리에스터 디테일 86%\n비스코스 13%\n폴리에스터 1%\n엘라스탄\n관리 \n환경을 보호하며 의류를 관리할 수 있습니다저온 세탁 및 부드러운 탈수 프로그램은 의류를 더 부드럽게 다루기 때문에 직물의 색상, 모양 및 구조를 유지하는 데 도움이 됩니다. 동시에 의류 관리 과정에 사용되는 에너지 소비를 감소합니다. "
+    },
+    {
+      "title": "슬림 코듀로이 팬츠",
+      "price": 29900,
+      "productImg": "src/images/kids/bottoms/kids_b2.jpg",
+      "thumbnails": [
+        "src/images/kids/bottoms/kids_b2-1.jpg",
+        "src/images/kids/bottoms/kids_b2-2.jpg",
+        "src/images/kids/bottoms/kids_b2-3.jpg"
+      ],
+      "id": 65,
+      "iteminfo": "겉감 주요소재 100%\n폴리에스터 디테일 86%\n비스코스 13%\n폴리에스터 1%\n엘라스탄\n관리 \n환경을 보호하며 의류를 관리할 수 있습니다저온 세탁 및 부드러운 탈수 프로그램은 의류를 더 부드럽게 다루기 때문에 직물의 색상, 모양 및 구조를 유지하는 데 도움이 됩니다. 동시에 의류 관리 과정에 사용되는 에너지 소비를 감소합니다. "
+    },
+    {
+      "title": "카고 니트 팬츠",
+      "price": 29900,
+      "productImg": "src/images/kids/bottoms/kids_b3.jpg",
+      "thumbnails": [
+        "src/images/kids/bottoms/kids_b3-1.jpg",
+        "src/images/kids/bottoms/kids_b3-2.jpg",
+        "src/images/kids/bottoms/kids_b3-3.jpg"
+      ],
+      "id": 66,
+      "iteminfo": "겉감 주요소재 100%\n폴리에스터 디테일 86%\n비스코스 13%\n폴리에스터 1%\n엘라스탄\n관리 \n환경을 보호하며 의류를 관리할 수 있습니다저온 세탁 및 부드러운 탈수 프로그램은 의류를 더 부드럽게 다루기 때문에 직물의 색상, 모양 및 구조를 유지하는 데 도움이 됩니다. 동시에 의류 관리 과정에 사용되는 에너지 소비를 감소합니다. "
+    },
+    {
+      "title": "데님 브러쉬드 캔버스 오버롤",
+      "price": 19900,
+      "productImg": "src/images/kids/bottoms/kids_b4.jpg",
+      "thumbnails": [
+        "src/images/kids/bottoms/kids_b4-1.jpg",
+        "src/images/kids/bottoms/kids_b4-2.jpg",
+        "src/images/kids/bottoms/kids_b4-3.jpg"
+      ],
+      "id": 67,
+      "iteminfo": "겉감 주요소재 100%\n폴리에스터 디테일 86%\n비스코스 13%\n폴리에스터 1%\n엘라스탄\n관리 \n환경을 보호하며 의류를 관리할 수 있습니다저온 세탁 및 부드러운 탈수 프로그램은 의류를 더 부드럽게 다루기 때문에 직물의 색상, 모양 및 구조를 유지하는 데 도움이 됩니다. 동시에 의류 관리 과정에 사용되는 에너지 소비를 감소합니다. "
+    },
+    {
+      "title": "데님 오버롤",
+      "price": 19900,
+      "productImg": "src/images/kids/bottoms/kids_b5.jpg",
+      "thumbnails": [
+        "src/images/kids/bottoms/kids_b5-1.jpg",
+        "src/images/kids/bottoms/kids_b5-2.jpg",
+        "src/images/kids/bottoms/kids_b5-3.jpg"
+      ],
+      "id": 68,
+      "iteminfo": "겉감 주요소재 100%\n폴리에스터 디테일 86%\n비스코스 13%\n폴리에스터 1%\n엘라스탄\n관리 \n환경을 보호하며 의류를 관리할 수 있습니다저온 세탁 및 부드러운 탈수 프로그램은 의류를 더 부드럽게 다루기 때문에 직물의 색상, 모양 및 구조를 유지하는 데 도움이 됩니다. 동시에 의류 관리 과정에 사용되는 에너지 소비를 감소합니다. "
+    },
+    {
+      "title": "스트라이프 팬츠",
+      "price": 13900,
+      "productImg": "src/images/kids/bottoms/kids_b6.jpg",
+      "thumbnails": [
+        "src/images/kids/bottoms/kids_b6-1.jpg",
+        "src/images/kids/bottoms/kids_b6-2.jpg",
+        "src/images/kids/bottoms/kids_b6-3.jpg"
+      ],
+      "id": 69,
+      "iteminfo": "겉감 주요소재 100%\n폴리에스터 디테일 86%\n비스코스 13%\n폴리에스터 1%\n엘라스탄\n관리 \n환경을 보호하며 의류를 관리할 수 있습니다저온 세탁 및 부드러운 탈수 프로그램은 의류를 더 부드럽게 다루기 때문에 직물의 색상, 모양 및 구조를 유지하는 데 도움이 됩니다. 동시에 의류 관리 과정에 사용되는 에너지 소비를 감소합니다. "
+    },
+    {
+      "title": "카고 조깅 니트 팬츠",
+      "price": 29900,
+      "productImg": "src/images/kids/bottoms/kids_b7.jpg",
+      "thumbnails": [
+        "src/images/kids/bottoms/kids_b7-1.jpg",
+        "src/images/kids/bottoms/kids_b7-2.jpg",
+        "src/images/kids/bottoms/kids_b7-3.jpg"
+      ],
+      "id": 70,
+      "iteminfo": "겉감 주요소재 100%\n폴리에스터 디테일 86%\n비스코스 13%\n폴리에스터 1%\n엘라스탄\n관리 \n환경을 보호하며 의류를 관리할 수 있습니다저온 세탁 및 부드러운 탈수 프로그램은 의류를 더 부드럽게 다루기 때문에 직물의 색상, 모양 및 구조를 유지하는 데 도움이 됩니다. 동시에 의류 관리 과정에 사용되는 에너지 소비를 감소합니다. "
+    },
+    {
+      "title": "진 브러쉬드 캔버스",
+      "price": 29900,
+      "productImg": "src/images/kids/bottoms/kids_b8.jpg",
+      "thumbnails": [
+        "src/images/kids/bottoms/kids_b8-1.jpg",
+        "src/images/kids/bottoms/kids_b8-2.jpg",
+        "src/images/kids/bottoms/kids_b8-3.jpg"
+      ],
+      "id": 71,
+      "iteminfo": "겉감 주요소재 100%\n폴리에스터 디테일 86%\n비스코스 13%\n폴리에스터 1%\n엘라스탄\n관리 \n환경을 보호하며 의류를 관리할 수 있습니다저온 세탁 및 부드러운 탈수 프로그램은 의류를 더 부드럽게 다루기 때문에 직물의 색상, 모양 및 구조를 유지하는 데 도움이 됩니다. 동시에 의류 관리 과정에 사용되는 에너지 소비를 감소합니다. "
+    },
+    {
+      "title": "릴렉스핏 진",
+      "price": 29900,
+      "productImg": "src/images/kids/bottoms/kids_b9.jpg",
+      "thumbnails": [
+        "src/images/kids/bottoms/kids_b9-1.jpg",
+        "src/images/kids/bottoms/kids_b9-2.jpg",
+        "src/images/kids/bottoms/kids_b9-3.jpg"
+      ],
+      "id": 72,
+      "iteminfo": "겉감 주요소재 100%\n폴리에스터 디테일 86%\n비스코스 13%\n폴리에스터 1%\n엘라스탄\n관리 \n환경을 보호하며 의류를 관리할 수 있습니다저온 세탁 및 부드러운 탈수 프로그램은 의류를 더 부드럽게 다루기 때문에 직물의 색상, 모양 및 구조를 유지하는 데 도움이 됩니다. 동시에 의류 관리 과정에 사용되는 에너지 소비를 감소합니다. "
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+@media screen and (max-width: 540px) {
+  @font-face {
+    font-family: "JeonjuCraftMjB";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftMjB.woff2")
+      format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  body {
+    font-family: "JeonjuCraftMjB";
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    cursor: pointer;
+    font-family: "JeonjuCraftMjB";
+  }
+  ul li {
+    list-style: none;
+  }
+  /*헤더영역*/
+  header ul#mainMenu a.nav-Menu.selected {
+    font-weight: bold;
+  }
+  /*1019추가 로그인 영역*/
+  div.modal input {
+    display: block;
+    width: 80%;
+    font-size: 16px;
+    color: darkslategray;
+    padding: 12px 10px 12px 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: 7px;
+    border: 1px solid lightGray;
+    margin-left: 10%;
+    margin-right: 3%;
+    border-radius: 8px;
+  }
+  /*1018추가 로그인 영역*/
+  ul#infoMenu li a.login-btn {
+    display: block;
+  }
+
+  div.modal fieldset {
+    border: none;
+  }
+  div.modal fieldset legend {
+    text-indent: -9999px;
+  }
+  ::placeholder {
+    text-align: center;
+  }
+  input:focus::placeholder {
+    color: transparent;
+  }
+  div.modal div.loginBtnArea {
+    border: 0px solid black;
+    width: 250px;
+    margin-left: 10%;
+    padding-left: 100px;
+  }
+  div.modal button {
+    padding-top: 13px;
+    width: 30%;
+    padding-bottom: 13px;
+    background-color: darkgray;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  @font-face {
+    font-family: "JeonjuCraftMjB";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftMjB.woff2")
+      format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  body {
+    font-family: "JeonjuCraftMjB";
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    cursor: pointer;
+    font-family: "JeonjuCraftMjB";
+  }
+  ul li {
+    list-style: none;
+  }
+  /*헤더영역*/
+  header ul#mainMenu a.nav-Menu.selected {
+    font-weight: bold;
+  }
+  /*1019추가 로그인 영역*/
+  div.modal input {
+    display: block;
+    width: 80%;
+    font-size: 16px;
+    color: darkslategray;
+    padding: 12px 10px 12px 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: 7px;
+    border: 1px solid lightGray;
+    margin-left: 10%;
+    margin-right: 3%;
+    border-radius: 8px;
+  }
+  /*1018추가 로그인 영역*/
+  ul#infoMenu li a.login-btn {
+    display: block;
+  }
+
+  div.modal fieldset {
+    border: none;
+  }
+  div.modal fieldset legend {
+    text-indent: -9999px;
+  }
+  ::placeholder {
+    text-align: center;
+  }
+  input:focus::placeholder {
+    color: transparent;
+  }
+  div.modal div.loginBtnArea {
+    border: 0px solid black;
+    width: 250px;
+    margin-left: 10%;
+    padding-left: 100px;
+  }
+  div.modal button {
+    padding-top: 13px;
+    width: 30%;
+    padding-bottom: 13px;
+    background-color: darkgray;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+  }
+}

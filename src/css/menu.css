@@ -1,0 +1,199 @@
+@media screen and (max-width:540px){
+  /* 모든 리스트 불릿표시 제거, 가로뱡향 정렬 */
+
+
+  .show {
+    left: 0;
+  }
+  /* 메인메뉴 */
+  
+  nav#test {
+   border: 0px solid blue;
+   position: relative;
+   width: 30%;
+   top: -50px;
+   opacity: 0.8;
+   background-color: white;
+   height: 670px;
+    z-index: 9999999;
+    display: none;
+  
+  }
+  h2#toggleBtn {
+   text-align: center;
+   cursor: pointer;
+    width: 50px;height: 50px;
+    border: 0px solid red;}
+  h2#toggleBtn i.fa-bars {
+      left: 10px;top: 10px;
+      z-index: 99999999999;
+      position: absolute;}
+  nav#test#test > ul {
+   border: 0px solid red;
+   position: absolute;
+   top: 110px;
+   width: 100%;height: 100%;
+  }
+  /* 메인메뉴 리스트     */
+  ul#mainMenu li {
+    margin: 5px;
+    float: unset;
+    border: 0px solid red;
+  }
+  ul#mainMenu li:nth-child(4){display: none;}
+  ul#mainMenu li:hover {background-color: beige;}
+  
+  
+  /* 메인메뉴 첫번째 리스트 */
+  /* ul#mainMenu li.Men {
+    font-weight: bolder;
+  } */
+  /* 메인메뉴 텍스트  */
+  ul#mainMenu li a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding: 2% 0 2% 0;
+    color: black;
+    font-size: 20px;
+    font-family: "JeonjuCraftMjB";
+  }
+  /* 메인메뉴 리스트에 호버했을때 동작 */
+  ul#mainMenu li a:hover {
+    text-decoration: underline;
+  }
+  /* 보조메뉴 */
+  div#infoWrap {
+    position: absolute;
+    width: 100%;
+    /* background-color: white; */
+  
+    top: 40%;
+    padding: 2% 0 2% 0;
+  
+   
+  }
+  ul#infoMenu {
+    
+    width: 200px;
+    margin: 0 auto;
+  }
+  /* 보조메뉴 리스트 */
+  ul#infoMenu li {
+    margin: 5px;
+  
+    float: unset;
+    width: 100px;height: 50px;
+    display: block;
+    border-radius:10px ;
+    background-color: beige;
+  }
+  
+  div#infoWrap ul#infoMenu li:nth-child(1){border: 1px solid gray;}
+  div#infoWrap ul#infoMenu li:nth-child(2){border: 1px solid gray;}
+  div#infoWrap ul#infoMenu li:nth-child(3){border: 1px solid gray;}
+  div#infoWrap ul#infoMenu li:nth-child(1):hover{border: 2px solid black;}
+  div#infoWrap ul#infoMenu li:nth-child(2):hover{border: 2px solid black;}
+  div#infoWrap ul#infoMenu li:nth-child(3):hover {border: 2px solid black;}
+  
+  /* 보조메뉴 텍스트 */
+  ul#infoMenu li a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height:50px ;
+    text-decoration: none;
+    color: black;
+    font-family: "JeonjuCraftMjB";
+    font-size: 15px;
+    border: 0px solid black;
+  }
+  @font-face {
+    font-family: "JeonjuCraftMjB";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftMjB.woff2")
+      format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  }
+  @media screen and (min-width:1024px){
+  /* 모든 리스트 불릿표시 제거, 가로뱡향 정렬 */
+  nav#test {
+ 
+     display: block;
+   
+   }
+  h2#toggleBtn{
+    display: none;
+  }
+  header ul li {
+    float: left;
+  }
+  header div#toggleBtn {
+    display: none;
+  }
+  /* 메인메뉴 */
+  ul#mainMenu {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    border: 0px solid black;
+  }
+  /* 메인메뉴 리스트     */
+  ul#mainMenu li {
+    margin: 5px;
+  }
+  /* 메인메뉴 첫번째 리스트 */
+  /* ul#mainMenu li.Men {
+    font-weight: bolder;
+  } */
+  /* 메인메뉴 텍스트  */
+  ul#mainMenu li a {
+    display: block;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    margin-left: 7px;
+    font-family: "JeonjuCraftMjB";
+  }
+  /* 메인메뉴 리스트에 호버했을때 동작 */
+  ul#mainMenu li a:hover {
+    text-decoration: underline;
+  }
+  /* 보조메뉴 */
+  ul#infoMenu {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+  }
+  /* 보조메뉴 리스트 */
+  ul#infoMenu li {
+    margin: 5px;
+    border: 0px solid black;
+  }
+  /* 보조메뉴 텍스트 */
+  ul#infoMenu li a {
+    display: block;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: "JeonjuCraftMjB";
+  }
+  @font-face {
+    font-family: "JeonjuCraftMjB";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftMjB.woff2")
+      format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  }
+  
+  
